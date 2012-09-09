@@ -1,4 +1,6 @@
 print "1.07 (**) Flatten a nested list structure."
+#Transform a list, possibly holding lists as elements into a 'flat' list by
+#replacing each list with its elements (recursively).
 
 def flatten_list(a):
   result = []
